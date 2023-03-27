@@ -13,5 +13,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
-          issue_id: ${{ github.event.issue.id }}
+          issue_number: ${{ github.event.issue.number }}
     
