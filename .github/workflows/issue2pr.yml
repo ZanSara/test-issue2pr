@@ -14,4 +14,5 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         with:
           issue_number: ${{ github.event.issue.number }}
+          openai_api_key: ${{ secrets.OPENAI_API_KEY }}
     
