@@ -1,0 +1,39 @@
+diff --git a/README.md b/README.md
+index e69de29..f8a1553 100644
+--- a/README.md
++++ b/README.md
+@@ -1 +1,2 @@
+ # test-issue2pr
++
+diff --git a/issue_template.md b/issue_template.md
+index e69de29..bd65221 100644
+--- a/issue_template.md
++++ b/issue_template.md
+@@ -1,15 +1,19 @@
+ ## Problem
+ <!-- Describe your issue in details -->
+ 
++The function should sum the two numbers but instead it subtracts them.
++
+ ## Steps to reproduce
+ <!-- Give precise steos to reproduce your bug -->
+ 
+ 
+ ## Test
+ <!-- If possible, add here a test to add to the test suite -->
+ ```python
+-def test_add_numbers_together():
+-    assert add_numbers_together(1, 2) == 3
++def add_numbers_together(a, b):
++    return a + b
++
++def test_add_numbers_together():
++    assert add_numbers_together(1, 2) == 3
+ ```
+ 
+ ## Environment
+- Operating system: <!-- Your OS, like Ubuntu 20.04 or Windows 11 -->
+- Python version: <!-- Your Python version, like 3.10.6 -->
++
++- Operating system: Ubuntu 22.04
++- Python version: 3.11
