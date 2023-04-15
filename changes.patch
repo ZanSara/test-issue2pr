@@ -1,0 +1,7 @@
+--- a/test/function_to_fix.py
++++ b/test/function_to_fix.py
+@@ -4,3 +4,3 @@
+     """
+-    return first_number - second_number
++    return first_number + second_number
+```
