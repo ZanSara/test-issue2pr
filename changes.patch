@@ -1,0 +1,5 @@
+--- a/test-issue2pr/test-issue2pr/test/function_to_fix.py
++++ b/test-issue2pr/test-issue2pr/test/function_to_fix.py
+@@ -5 +5 @@
+-    return first_number - second_number
++    return first_number + second_number
