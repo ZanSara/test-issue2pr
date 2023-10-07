@@ -1,0 +1,6 @@
+--- a/home/runner/work/test-issue2pr/test-issue2pr/test/function_to_fix.py
++++ b/home/runner/work/test-issue2pr/test-issue2pr/test/function_to_fix.py
+@@ -5,1 +5,1 @@
+     """
+-    return first_number - second_number
++    return first_number + second_number
